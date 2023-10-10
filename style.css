@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container img{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+.sub-container{
+    background:linear-gradient( #E8691E, #ECCDAD);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius:20px ;
+    color: white;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.551);
+}
+label{
+    margin-top:50px ;
+    font-size: 20px;
+}
+input,select{
+    width: 150px;
+    margin-top: 10px;
+}
+
+button{
+    margin: 50px 0;
+    width: 60%;
+    background-color: #ff8000;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.551);
+cursor: pointer;
+}
+button:active{
+    transform: scale(95%);
+}
+.sub-container p,h1{
+   text-align: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+#tipAmountShow p:nth-child(2){
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    /* padding: 5px 5px; */
+}
+#tipAmountShow{
+text-align: center;
+color: black;
+}
+#tipAmountShow div{
+display: flex;
+justify-content: center;
+gap: 10px;
+border: 1px solid black;
+color: black;
+/* width: 50%; */
+}
+#select1{
+    width: 40px;
+}
